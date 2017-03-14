@@ -1,5 +1,4 @@
 version: 0.1
-
 phases:
     build:
         commands:
@@ -9,6 +8,6 @@ phases:
         commands:
             - echo Build completed on `date`
             - mvn package
- artifacts:
+artifacts:
     files:
         - target/my-app-1.0-SNAPSHOT.jar
